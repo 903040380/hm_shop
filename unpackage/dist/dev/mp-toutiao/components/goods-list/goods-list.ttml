@@ -1,0 +1,1 @@
+<view class="goods-list"><block tt:for="{{goods}}" tt:for-item="item" tt:for-index="__i0__" tt:key="id"><view class="goods-item"><image src="{{item.img_src}}"></image><view class="price"><text>{{item.price_new}}</text><text>{{item.price_old}}</text></view><view class="name">{{item.name}}</view></view></block></view>

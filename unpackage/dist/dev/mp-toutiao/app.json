@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cart/cart",
+    "pages/member/member",
+    "pages/news/news",
+    "pages/goods/goods",
+    "pages/contact/contact",
+    "pages/pics/pics",
+    "pages/videos/videos"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "河马商城",
+    "navigationBarBackgroundColor": "#B50E03",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#B50E03",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/首页.png",
+        "selectedIconPath": "static/首页%20(1).png"
+      },
+      {
+        "text": "资讯",
+        "pagePath": "pages/news/news",
+        "iconPath": "static/火.png",
+        "selectedIconPath": "static/火%20(1).png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/购物车.png",
+        "selectedIconPath": "static/购物车%20(1).png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/member/member",
+        "iconPath": "static/我的聚划算.png",
+        "selectedIconPath": "static/我的聚划算%20(1).png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

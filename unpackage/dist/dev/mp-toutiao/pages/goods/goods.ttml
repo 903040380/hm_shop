@@ -1,0 +1,1 @@
+<view><goods-list vue-id="5771e31e-1" goods="{{goods}}" bind:__l="__l"></goods-list><block tt:if="{{flag}}"><view class="isOver">-----我是有底线的-----</view></block></view>

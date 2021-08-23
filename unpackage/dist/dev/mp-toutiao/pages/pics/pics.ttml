@@ -1,0 +1,1 @@
+<view class="pics"><scroll-view class="left" scroll-y="true"><block tt:for="{{cates}}" tt:for-item="item" tt:for-index="index" tt:key="id"><view data-event-opts="{{[['tap',[['leftClickHandle',[index,'$0'],[[['cates','id',item.id,'id']]]]]]]}}" class="{{(active===index?'active':'')}}" bindtap="__e">{{''+item.title+''}}</view></block></scroll-view></view>

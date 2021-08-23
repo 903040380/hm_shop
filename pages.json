@@ -1,0 +1,126 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style" :
+			{
+			    "enablePullDownRefresh": false
+			}
+			
+		}
+	    ,{
+            "path" : "pages/cart/cart",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/member/member",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/news/news",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/goods/goods",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品列表",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/contact/contact",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "联系我们",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/pics/pics",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "社区图片",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/videos/videos",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/news-detail/news-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/goods-detail/goods-detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "河马商城",
+		"navigationBarBackgroundColor": "#B50E03",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"selectedColor":"#B50E03",
+		"list":[
+			{
+				"text":"首页",
+				"pagePath":"pages/index/index",
+				"iconPath":"static/首页.png",
+				"selectedIconPath":"static/首页%20(1).png"
+			},
+			{
+				"text":"资讯",
+				"pagePath":"pages/news/news",
+				"iconPath":"static/火.png",
+				"selectedIconPath":"static/火%20(1).png"
+			},
+			{
+				"text":"购物车",
+				"pagePath":"pages/cart/cart",
+				"iconPath":"static/购物车.png",
+				"selectedIconPath":"static/购物车%20(1).png"
+			},
+			{
+				"text":"我的",
+				"pagePath":"pages/member/member",
+				"iconPath":"static/我的聚划算.png",
+				"selectedIconPath":"static/我的聚划算%20(1).png"
+			}
+		]
+	}
+}
